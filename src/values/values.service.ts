@@ -10,7 +10,8 @@ export class ValuesService {
     private baseValueRepository: Repository<Value>
   ) {}
   create(createValueDto: CreateValueDto) {
-    return 'This action adds a new value'
+    console.log(createValueDto)
+    return 'Sucess insert'
   }
 
   findAll() {
